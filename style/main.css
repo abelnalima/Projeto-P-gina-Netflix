@@ -92,6 +92,16 @@ header nav a:hover { /* Faz com que o elemento fique realçado ao por o mouse so
     width: 60%;
 }
 
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
 /* Display: flex é herdado pelos filhos diretos da div, incluindo uma
 outra div. Porém, se o filho de um filho não herdará e terá seu
 atributo Display: block*/
