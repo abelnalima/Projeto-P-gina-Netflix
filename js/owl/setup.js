@@ -1,6 +1,7 @@
+/*JQuery*/
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:5,
     nav:false,
     responsive:{
         0:{
@@ -14,3 +15,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function teste() {
+    newWindow = window.open ('../html/info.html', 'popup', "width=650 height=280 top=550 left=400");
+}
